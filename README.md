@@ -53,7 +53,7 @@ This repository contains a complete flight control firmware for an **X‑configu
 | ESC M3    | 25 |
 | ESC M4    | 26 |
 
-*(Add a wiring diagram in the `hardware/` folder if desired.)*
+
 
 ### Software Setup
 1. Install [Arduino IDE](https://www.arduino.cc/en/software).
@@ -66,7 +66,7 @@ This repository contains a complete flight control firmware for an **X‑configu
    - `ESP32Servo`
    - `TinyGPSPlus`
 4. Clone or download this repository.
-5. Open the `ESP32_QuadFlightController.ino` file in Arduino IDE.
+5. Open the `ESP32-FC.ino` file in Arduino IDE.
 6. Select board: **ESP32 Dev Module**.
 7. Upload the sketch.
 
@@ -110,8 +110,8 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @software{Adam_ESP32_QuadFlightController_2026,
-  author = {Adam [Your Last Name]},
+  author = {Adam thear abdel nabi},
   title = {ESP32 Quadcopter Flight Controller with GPS Hold},
-  year = {2026},
-  url = {https://github.com/your-username/ESP32_QuadFlightController}
+  year = {2026/3/31},
+  url = {https://github.com/adamtheareng22/ESP32_QuadFlightController}
 }
